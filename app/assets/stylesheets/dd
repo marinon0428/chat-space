@@ -1,0 +1,74 @@
+.wrapper
+
+.chat
+  .header__logo
+    SNS
+  .header__logo2
+  = link_to "#", class: "contents__btn contents__btn--instagram" do
+    = icon('far', 'edit', class: "contents__btn--icon")
+    %span<>
+  = link_to "#", class: "contents__btn contents__btn--instagram" do
+    = icon('fas', 'cog', class: "contents__btn--icon")
+    %span<>
+
+  .header__second
+    .header__name
+      techcamp
+    .header__comennts
+      まだメッセージはありません。
+
+
+.contents
+  test
+  .contents__member
+    Member:saitou
+  .contents__edit
+    Edit
+
+
+
+  .midlecontents
+  .bottomcontents
+
+
+
+
+
+
+
+
+
+  .chat-header {
+  background-color: #595959;
+  height: 100px;
+}
+
+.chat__groups {
+  background-color: #333333;
+  height: calc(100vh - 100px);
+}
+
+
+
+.chat-main {
+  width: calc(100% - 300px);
+  background-color: #1a1d21;
+}
+
+
+
+
+
+
+
+
+
+.messages {
+  background-color: #1a1d21;
+  height: calc(100vh - 190px);
+}
+
+.form {
+  background-color: #595959;
+  height: 90px;
+}
