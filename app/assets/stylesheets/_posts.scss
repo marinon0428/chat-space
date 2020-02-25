@@ -66,14 +66,15 @@
   justify-content: space-between;
   }
   &__menber{
-  font-size: 12px;
+  font-size: 20px;
   color: #333333;
   line-height: 100px;
   }
   &__edit{
-  display: flex;
-  font-size: 16px;
-  color: #38aef3;
+    display: inline;
+    font-size: 16px;
+    border: 1px solid #38aef0;
+    padding: 10px 15px;
   }
   &__group {
   position: absolute;
